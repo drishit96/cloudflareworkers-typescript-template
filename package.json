@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "cloudflareworkers-typescript-template",
+  "version": "1.0.0",
+  "description": "A template for kick starting a TypeScript Cloudflare worker project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "drishit96",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.5.1",
+    "typescript": "^4.5.5",
+    "@cloudflare/workers-types": "^3.3.1"
+  }
+}
